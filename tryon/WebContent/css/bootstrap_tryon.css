@@ -1,0 +1,174 @@
+html, body{
+	height: 100%;
+}
+
+.contentGeral{
+	min-height: 100%;
+	position: relative;
+}
+
+.alinharEsquerda{
+	margin-left: 0;
+	padding-left: 0;
+	width:100%;
+}
+
+.lnkMarca>.imgMarca{
+	max-width:7em;
+	width:auto;
+	height: auto;
+}
+
+.lnkMarca{
+	height: 50px;
+	line-height: 50px;
+}
+
+.carrinho{
+	font-size: 1.5em;
+}
+
+
+.icoSearchHome{
+	position:relative;
+	right:40px;
+		appearance:none;
+-moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+background: transparent;
+border: none;
+
+}
+
+.bannerFixo-home{
+	background: #e8ddd1;
+	max-height:400px;
+	max-width: 100%;
+	height:auto; 
+	overflow: hidden;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.bannerFixo-home>.bannerFixoConteudo{
+	margin:0 auto;
+	 max-width: 1200px;
+}
+
+
+.bannerFixoConteudo>.imgBannerHome{
+	 max-width: 100%;
+	 float: right;
+}
+.bannerFixoConteudo>.txtBannerHome{
+color: #655d55;
+font-size: 1.3em;
+line-height: 1.5em;
+position: relative;
+top: 2em;
+width: 35%;
+}
+
+.btnBannerHome{
+	color:#fff;
+	background: #8c7e6f;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin-left: 1.5em;
+	margin-top: 40px;
+	
+}
+
+.produtos{
+	width: 100%;
+}
+
+.imgTbProduto{
+	width: 279px;
+	height: 300px;
+	border: 1px solid #ccc;
+}
+
+.produtosCard{
+	border: none;
+}
+
+.precoProduto{
+	background: #ff5151;
+	color:#fff;
+	border: none;
+	font-size: 0.9em;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 5px 15px;
+font-weight: bolder;
+margin-bottom: 10px;
+
+}
+
+.infoCardProdutos{
+	margin: 0 auto;
+text-align: center;
+}
+
+.parcelaProduto{
+	color:#ff5151;
+	font-size: 1em;
+	font-weight: bolder;
+}
+
+.footer {
+position: absolute;
+bottom: 0;
+width: 80%;
+left: 10%;
+border-top: 1px solid #C7C4C4;
+height: 150px;
+}
+
+.contentFooter{
+margin: 2em auto;
+width: 75%;
+}
+
+.contentCorpoPagina{
+	padding-bottom: 180px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.lnkMarcaFooter{
+	float:left;
+}
+
+ul.lnkFooterLista {
+float: left;
+margin: 0 10px;
+list-style: none;
+}
+
+.lnkFooterLista>.lilnkFooter>.lnkFooter{
+	color:#818181;
+	font-size: 0.9em;
+
+}
+
+.lnkFooterLista>.lilnkFooterHeader{
+	font-weight: bolder;
+	font-size: 1.1em;
+		color:#818181;
+		text-transform: uppercase;
+
+}
+
+.copyright{
+clear: both;
+float: none;
+color: #818181;
+font-size: 0.9em;
+margin: 5em auto 0 auto;
+padding: 3em 0;
+display: inline-block;
+}
