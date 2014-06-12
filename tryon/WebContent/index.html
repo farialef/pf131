@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Tryon Home</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap_tryon.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,40 +21,57 @@
   <body>
 <div class="contentGeral">    
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container alinharEsquerda">
-    <ul class="nav navbar-nav">
-      <li class="liMenu-1"><a href="#" class="lnkMenu-1 glyphicon glyphicon-home"></a></li>
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle visible-desktop" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a href="#" class="lnkMarcaResponsivo"><img class="imgMarca" src='imagens/logoTyon.svg' alt="logo tryon"></a>  
+
+
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li class="active liMenu-1"><a href="#" class="lnkMenu-1 glyphicon glyphicon-home"></a></li>
       <li class="liMenu-2"><a href="#" class="lnkMenu-2">Anel</a></li>
       <li class="liMenu-3"><a href="#" class="lnkMenu-3">Pulseira</a></li>
       <li class="liMenu-4"><a href="#" class="lnkMenu-4">Brinco</a></li>
       <li class="liMenu-5"><a href="#" class="lnkMenu-5">Colares</a></li>
       <li class="liMenu-6"><a href="#" class="lnkMenu-6">Pingentes</a></li>
       <li class="liMenu-7"><a href="#" class="lnkMenu-7">Relógios</a></li>
-    </ul>
-   <form class="navbar-form navbar-left" role="search">
+      </ul>
+      <form class="navbar-form navbar-left formBusca" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Buscar">
+          <input type="text" class="inputBusca" placeholder="Buscar">
         </div>
-        <button type="submit" class="icoSearch icoSearchHome glyphicon glyphicon-search">
-        </button>
-      </form>   
-      <a href="#" class="lnkMarca"><img class="imgMarca" src='imagens/logoTyon.svg' alt="logo tryon"></a>   
+        <button type="submit" class="icoSearch icoSearchHome glyphicon glyphicon-search"></button>
+      </form>
+      <a href="#" class="lnkMarca"><img class="imgMarca" src='imagens/logoTyon.svg' alt="logo tryon"></a>  
       <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Criar Conta</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-              <li><a class=" carrinho glyphicon glyphicon-shopping-cart" href="#"></a></li>
+        <li><a href="#">Criar Conta</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Meus Pedidos</a></li>
+            <li><a href="#">Meus Dados</a></li>
+            <li class="divider"></li>
+            <li><a href="#">x Sair</a></li>
           </ul>
-  </div>
+                        <li><a class=" carrinho glyphicon glyphicon-shopping-cart" href="#"></a></li>
+
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
+
 
 <section class="bannerFixo-home">
   <div class="bannerFixoConteudo">
@@ -198,6 +216,6 @@ SEM COMPROMISSO.</p>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
