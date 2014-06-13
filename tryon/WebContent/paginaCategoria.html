@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tryon Home</title>
+    <title>Tryon Categoria</title>
 
     <!-- Bootstrap -->
    <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
@@ -25,7 +25,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle visible-desktop" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
+  
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -39,11 +39,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-      <li class="active linkAtivo liMenu-1"><a href="#" class="lnkMenu-1 glyphicon glyphicon-home"></a></li>
+      <li class="liMenu-1"><a href="#" class="lnkMenu-1 glyphicon glyphicon-home"></a></li>
       <li class="liMenu-2"><a href="#" class="lnkMenu-2">Anel</a></li>
       <li class="liMenu-3"><a href="#" class="lnkMenu-3">Pulseira</a></li>
       <li class="liMenu-4"><a href="#" class="lnkMenu-4">Brinco</a></li>
-      <li class="liMenu-5"><a href="#" class="lnkMenu-5">Colares</a></li>
+      <li class="active linkAtivo liMenu-5"><a href="#" class="lnkMenu-5">Colares</a></li>
       <li class="liMenu-6"><a href="#" class="lnkMenu-6">Pingentes</a></li>
       <li class="liMenu-7"><a href="#" class="lnkMenu-7">Relógios</a></li>
       </ul>
@@ -73,34 +73,47 @@
 </nav>
 
 
-<section class="bannerFixo-home">
-  <div class="bannerFixoConteudo">
-  <img src="imagens/bannerHome.png" alt="" class="imgBannerHome">
-  <p class="txtBannerHome">GOSTOU DE ALGO?
-ENTÃO É SÓ ESCOLHER
-E NÓS ENTREGAMOS NA
-SUA CASA PARA VOCÊ 
-EXPERIMENTAR, 
-SEM COMPROMISSO.</p>
-<button type="button" class="btn btn-lg btnBannerHome">
-   Eu quero! Quais são as regras?
-</button> 
+<section class="faixaCategoria-bradcrumb"></section>
+<div class="contentCorpoPagina categoria">
+<aside class="menuLateral">
+  <ul class="navLateral">
+  <li class="nav-lateral-li lnkPrincipal"><a href="" class="">Anel</a><span class= "glyphicon glyphicon-chevron-down floatRight"></span></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_2">Aliança</a></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_3">Ouro</a></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_4">Ouro Branco</a></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_5">Prata</a></li>
+</ul>
 
- </div>
-</section>
-<div class="contentCorpoPagina">
+  <ul class="navLateral tipo2">
+  <li class="nav-lateral-li lnkPrincipal bordaBottom"><a href="" class="">Faixas de Preço</a><span class= "glyphicon glyphicon-chevron-down floatRight"></span></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_2">Todas</a></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_3">Até 100R$</a></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_4">De R$100 A R$199</a></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_5">De R$200 A R$299</a></li>
+  <li class="nav-lateral-li"><a href="" class="nav-lateralLnk_5">De R$300 A R$499</a></li>
+</ul>
+
+</aside>
+
+<div class="produtosContainer">
+<ol class="lista-breadcrumb">
+  <span class="breadcrumbTxt">Você está em:</span>
+  <li class="li-breadcrumb"><a href="" class="lnk-breadcrumb_1">Home</a></li>
+  <li class="li-breadcrumb"><a href="" class="lnk-breadcrumb_2 ultimo-lnk-breadcrumb">Colares</a></li>
+</ol>
+<nav class="filtroProdutoCat">
+  <ul class="listaFiltroProdCat">
+    <li class="liProdCat"><a href="" class="lnkProdCat selected">Todos</a></li>
+    <li class="liProdCat"><a href="" class="lnkProdCat">Promoções</a></li>
+  </ul>
+</nav>
+
 <section class="row produtos">
-      <div class="col-sm-6 col-md-3">
-        <div class="thumbnail produtosCard">
-          <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_05.jpg" class="imgTbProduto">
-          <div class="caption infoCardProdutos">
-            <h5>Brinco Perolado</h5>
-            <a href="#" class="btn btn-primary precoProduto" role="button">R$400</a> 
-            <p class="parcelaProduto">12 x R$100,00</p>
-          </div>
-        </div>
-      </div>
-            <div class="col-sm-6 col-md-3">
+
+
+
+
+            <div class="col-md-4">
         <div class="thumbnail produtosCard">
           <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_06.jpg" class="imgTbProduto">
           <div class="caption infoCardProdutos">
@@ -111,7 +124,7 @@ SEM COMPROMISSO.</p>
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-md-4">
         <div class="thumbnail produtosCard">
           <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_07.jpg" class="imgTbProduto">
           <div class="caption infoCardProdutos">
@@ -121,7 +134,7 @@ SEM COMPROMISSO.</p>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-md-4">
         <div class="thumbnail produtosCard">
           <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_08.jpg" class="imgTbProduto">
           <div class="caption infoCardProdutos">
@@ -133,17 +146,7 @@ SEM COMPROMISSO.</p>
       </div>
     </section>
     <section class="row produtos">
-      <div class="col-sm-6 col-md-3">
-        <div class="thumbnail produtosCard">
-          <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_01.jpg" class="imgTbProduto">
-          <div class="caption infoCardProdutos">
-            <h5>Brinco Perolado</h5>
-            <a href="#" class="btn btn-primary precoProduto" role="button">R$400</a> 
-            <p class="parcelaProduto">12 x R$100,00</p>
-          </div>
-        </div>
-      </div>
-            <div class="col-sm-6 col-md-3">
+                <div class="col-md-4">
         <div class="thumbnail produtosCard">
           <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_02.jpg" class="imgTbProduto">
           <div class="caption infoCardProdutos">
@@ -154,7 +157,7 @@ SEM COMPROMISSO.</p>
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-3">
+      <div class="col-md-4">
         <div class="thumbnail produtosCard">
           <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_03.jpg" class="imgTbProduto">
           <div class="caption infoCardProdutos">
@@ -164,7 +167,7 @@ SEM COMPROMISSO.</p>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="scol-md-4">
         <div class="thumbnail produtosCard">
           <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_04.jpg" class="imgTbProduto">
           <div class="caption infoCardProdutos">
@@ -175,6 +178,7 @@ SEM COMPROMISSO.</p>
         </div>
       </div>
     </section>
+  </div>
   </div>
 
 <footer class="footer">
