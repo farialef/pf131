@@ -141,8 +141,16 @@ width: 75%;
 	margin: 0 auto;
 }
 
-.contentCorpoPagina.categoria{
-	width: 75%;
+.contentCorpoPagina.resultadoBusca{
+	margin-top: 100px;
+}
+
+.contentCorpoPagina.resultadoBusca .navLateral{
+	top: 0;
+}
+
+.contentCorpoPagina.resultadoBusca .produtos{
+	margin-top: 0;
 }
 
 .menuLateral{
@@ -186,6 +194,12 @@ margin: 0 auto;
 	margin:1em;
 	padding: 0;
 	text-transform: uppercase;
+}
+
+.headerSecao2{
+	font-size: 1.3em;
+	color:#B3B3B3;
+	margin-left: 1em;
 }
 
 
