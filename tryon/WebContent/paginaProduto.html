@@ -74,9 +74,8 @@
 
 
 
-<div class="contentCorpoPagina">
+<div class="contentCorpoPagina marginHeader">
 
-<div class="produtosContainer marginHeader">
 
 <section class="row produtos">
             <div class="col-xs-6 produtoGaleria">
@@ -85,19 +84,32 @@
                 <li class="liImgProd"> <img class="imgProdutoTemplate" src="imagens/imgProduto.jpg" alt="produto categoria" /></li>
                 <li class="liImgProd"> <img class="imgProdutoTemplate" src="imagens/imgProduto.jpg" alt="produto categoria" /></li>
                 <li class="liImgProd"> <img class="imgProdutoTemplate" src="imagens/imgProduto.jpg" alt="produto categoria" /></li>
+                <li class="liImgProd"> <img class="imgProdutoTemplate" src="imagens/imgProduto.jpg" alt="produto categoria" /></li>
               </ul>
            </div>
 
+      <ol class="lista-breadcrumb pagProduto">
+  <li class="li-breadcrumb"><a href="" class="lnk-breadcrumb_1">Colar</a></li>
+  <li class="li-breadcrumb"><a href="" class="lnk-breadcrumb_1">Prata</a></li>
+  <li class="li-breadcrumb"><a href="" class="lnk-breadcrumb_2 ultimo-lnk-breadcrumb">Colar Hello Kitty</a></li>
+</ol>
       <div class="col-xs-6 produtoGaleriaInfo">
-        <h2> nome colar</h2> <span class="valor"></span>
-        <select name="" id="" class="input-group">
+        <ul class="infoNomePreco">
+        <li class="prodTit"> Colar Hello Kitty</li> 
+        <li class="valor">R$ 200</li>
+        </ul>
+        <label class="lblQtdProd" for="selQtdProd">Quantidade</label>
+        <select name="" id="selQtdProd" class="qtdProdInfo">
           <option>1</option>
           <option>1</option>
         </select>
-        <button class="btn btn-primary">teste</button>
+        <button class="btn btn-primary btnAddCarrinho precoProduto">Adicionar ao Carrinhos</button>
       </div>
     </section>
+
+
     <section class="row produtos">
+      <h1 class="headerSecao">Produtos Similares</h1>
       <div class="col-sm-6 col-md-3">
         <div class="thumbnail produtosCard">
           <img data-src="holder.js/300x200" alt="300x200" src="imagens/imgHome_05.jpg" class="imgTbProduto">
@@ -137,7 +149,6 @@
       </div>
 
     </section>
-  </div>
   </div>
 
 <footer class="footer">
