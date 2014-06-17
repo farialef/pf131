@@ -202,6 +202,10 @@ margin: 0 auto;
 	margin-left: 1em;
 }
 
+.headerSecao.login{
+	margin: 2em 0;
+}
+
 
 .produtoGaleriaInfo .lblQtdProd{
 	display: block;
@@ -209,11 +213,22 @@ margin: 0 auto;
 	width: 25%;
 }
 
-.produtoGaleriaInfo .btnAddCarrinho{
-	width:50%;
+.produtoGaleriaInfo .btnGeralGrande{
 	margin: 6em auto 0 auto;
+}
+
+.btnGeralGrande{
+	width:30%;
 	display: block;
 	height: 40px;
+	background: #ff5151;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 5px 15px;
+	color:#fff;
+	margin:10px 0;
 }
 
 .lista-breadcrumb.pagProduto> li > a{
@@ -263,6 +278,33 @@ left: -40px;
 	margin-top:5em;
 }
 
+.inputGeral{
+background: #fff;
+border: 1px solid #BBB7B7;
+height: 40px;
+width: 30%;
+margin:1em 0;
+}
+
+.lblGeral{
+	display: block;
+	color: #818181;
+	font-size: 1em;
+	margin: 0;
+}
+
+.esqueciSenha{
+	display: block;
+	color: #ff5151;
+	font-size: 1em;
+}
+
+.semConta .headerSecao2{
+	margin: 1em 0;
+}
+.color:{
+	color: #ff5151;
+}
 
 .produtoGaleria > .listaImgProd > .liImgProd{
 	display: inline-block;
