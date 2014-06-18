@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tryon Login</title>
+    <title>Tryon Carrinho</title>
 
     <!-- Bootstrap -->
    <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
@@ -32,6 +32,9 @@
         <span class="icon-bar"></span>
       </button>
             <a href="#" class="lnkMarcaResponsivo"><img class="imgMarca" src='imagens/logoTyon.svg' alt="logo tryon"></a>  
+
+
+      
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,7 +44,7 @@
       <li class="liMenu-2"><a href="paginaCategoriaAnel.html" class="lnkMenu-2">Anel</a></li>
       <li class="liMenu-3"><a href="paginaCategoriaPulseira.html" class="lnkMenu-3">Pulseira</a></li>
       <li class="liMenu-4"><a href="paginaCategoriaBrinco.html" class="lnkMenu-4">Brinco</a></li>
-      <li class="liMenu-5"><a href="paginaCategoriaColar.html" class="lnkMenu-5">Colares</a></li>
+      <li class="active linkAtivo liMenu-5"><a href="paginaCategoriaColar.html" class="lnkMenu-5">Colares</a></li>
       <li class="liMenu-6"><a href="paginaCategoriaPingente.html" class="lnkMenu-6">Pingentes</a></li>
       <li class="liMenu-7"><a href="paginaCategoriaRelogio.html" class="lnkMenu-7">Relógios</a></li>
       </ul>
@@ -73,21 +76,69 @@
 
 
 <div class="contentCorpoPagina marginHeader">
-    <h1 class="headerSecao login">Faça Login no Tryon</h1>
-    <form class="formularioContainer">
-      <label for="inputEmail" class="lblGeral">Email</label> 
-      <input type="text" name="inputEmail" id="inputEmail" class="inputGeral">
-      <label for="inputSenha" class="lblGeral">Senha</label> 
-      <input type="text" name="inputSenha" id="inputSenha" class="inputGeral">
-      <a class="esqueciSenha">Esqueci a senha</a>
-      <button type="button" class="btnGeralGrande">Fazer Login</button> 
-    </form>
-    <section class="semConta">
-      <h1 class="headerSecao2"> Ainda não tem conta? <a href="#" class="color">Crie agora!</a></h1>
 
+<h1 class="headerSecao">Meu Carrinho</h1>
+<section class="carrinhoInfo">
+        <div class="col-xs-6">
+        <article class="calculoCarrinho">
+        <h1 class="subtotal">Subtotal</h1> 
+        <h2 class="valor">R$ 200</h2>
+        <label class="lblGeral" for="cepInput">Calcular Frete</label>
+        <input type="text" class="cepInput inputGeral">
+        <button class="btn btn-primary btnGeralGrande btnFimCarrinho">FINALIZAR CARRINHO</button>
+        </article>
+      </div>
+  
+</section>
+
+<section class="row produtos">
+            <div class="col-xs-6 produtoCarrinho">
+              <img class="imgCarrinho maskCirculo" src="imagens/imagemCarrinho.jpg" alt="imagem carrinho" />
+              <article class="infoCarrinho">
+                <h5 class="titCarrinho">Colar Perolado</h5>
+                <h6 class="valorCarrinho">R$100,00</h6>
+                <p class="descricaoCarrinho">Colar de prata com pedra ametista.</p>
+                <select name="" id="" class="qtdProdInfo">
+                  <option value="1">1</option>
+                  <option value="1">1</option>
+                </select>
+                <button class="fechar">x</button>
+              </article>
+           </div>
+    </section>
+<section class="row produtos">
+            <div class="col-xs-6 produtoCarrinho">
+              <img class="imgCarrinho maskCirculo" src="imagens/imagemCarrinho.jpg" alt="imagem carrinho" />
+              <article class="infoCarrinho">
+                <h5 class="titCarrinho">Colar Perolado</h5>
+                <h6 class="valorCarrinho">R$100,00</h6>
+                <p class="descricaoCarrinho">Colar de prata com pedra ametista.</p>
+                <select name="" id="" class="qtdProdInfo">
+                  <option value="1">1</option>
+                  <option value="1">1</option>
+                </select>
+                <button class="fechar">x</button>
+              </article>
+           </div>
     </section>
 
- </div>
+
+<section class="row produtos">
+            <div class="col-xs-6 produtoCarrinho">
+              <img class="imgCarrinho maskCirculo" src="imagens/imagemCarrinho.jpg" alt="imagem carrinho" />
+              <article class="infoCarrinho">
+                <h5 class="titCarrinho">Colar Perolado</h5>
+                <h6 class="valorCarrinho">R$100,00</h6>
+                <p class="descricaoCarrinho">Colar de prata com pedra ametista.</p>
+                <select name="" id="" class="qtdProdInfo">
+                  <option value="1">1</option>
+                  <option value="1">1</option>
+                </select>
+                <button class="fechar">x</button>
+              </article>
+           </div>
+         </section>
+</div>
 
 <footer class="footer">
 

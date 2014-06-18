@@ -81,6 +81,87 @@ width: 35%;
 	
 }
 
+.maskCirculo {
+  -webkit-mask-box-image: url('../imagens/mascaraCirculo.png');
+}
+
+.imgCarrinho{
+	float: left;
+	margin-right: 1em;
+}
+
+.infoCarrinho > .titCarrinho{
+	color:#060606;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	display: inline-block;
+}
+.infoCarrinho > .valorCarrinho{
+	display: inline-block;
+	margin-left: 1em;
+	color: #ccc;
+}
+.infoCarrinho > .qtdProdInfo{
+	width: 20%;
+}
+
+.infoCarrinho > .descricaoCarrinho{
+	font-size: 1em;
+	color:#c5c5c5;
+	font-weight: normal;
+}
+
+.subtotal{
+	color:#ccc;
+	font-size: 1.1em;
+}
+.carrinhoInfo .col-xs-6{
+	float:right;
+	border: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+.calculoCarrinho{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.calculoCarrinho .cepInput{
+	margin: 1em auto;
+}
+
+.produtoCarrinho{
+	position: relative;
+	height: 100%;
+}
+
+
+.produtoCarrinho .fechar{
+	position: absolute;
+	right: 100px;
+	top: 0;
+	color: #fff;
+	font-size: 2em;
+	background: #ccc;
+	border-radius: 20px;
+	width: 30px;
+	border:none;
+	height: 30px;
+	text-align: center;
+	line-height: 20px;
+	 -webkit-appearance:none;
+	 -o-appearance:none;
+	 -moz-appearance:none;
+	  appearance:none;
+
+}
+
+.calculoCarrinho .btnFimCarrinho{
+	background: #000;
+	margin: 1em auto;
+}
+
 .produtos{
 	width: 100%;
 	margin-top: 2em;
@@ -179,15 +260,16 @@ width: 75%;
 	display: inline-block;
 }
 
-.produtoGaleriaInfo > .qtdProdInfo{
-width: 25%;
-height: 40px;
-background: #fff;
-margin: 0;
-display: block;
-margin: 0 auto;
+.qtdProdInfo{
+	height: 40px;
+	background: #fff;
+	display: block;
 }
 
+.produtoGaleriaInfo > .qtdProdInfo{
+	margin: 0 auto;
+	width: 25%;
+}
 .headerSecao{
 	color:#060606;
 	font-size: 1.6em;
@@ -275,15 +357,20 @@ left: -40px;
 }
 
 .marginHeader{
-	margin-top:5em;
+	margin-top:6em;
 }
+
+.formularioContainer .inputGeral{
+width: 30%;
+}
+
 
 .inputGeral{
 background: #fff;
 border: 1px solid #BBB7B7;
 height: 40px;
-width: 30%;
 margin:1em 0;
+display: block;
 }
 
 .lblGeral{
