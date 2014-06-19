@@ -42,11 +42,11 @@
       <li class="liMenu-1"><a href="index.html" class="lnkMenu-1 glyphicon glyphicon-home"></a></li>
       <li class="liMenu-2"><a href="paginaCategoriaAnel.html" class="lnkMenu-2">Anel</a></li>
       <li class="liMenu-3"><a href="paginaCategoriaPulseira.html" class="lnkMenu-3">Pulseira</a></li>
-      <li class="liMenu-4"><a href="paginaCategoriaBrinco.html" class="lnkMenu-4">Brinco</a></li>
+      <li class="active linkAtivo liMenu-4"><a href="paginaCategoriaBrinco.html" class="lnkMenu-4">Brinco</a></li>
       <li class="liMenu-5"><a href="paginaCategoriaColar.html" class="lnkMenu-5">Colares</a></li>
       <li class="liMenu-6"><a href="paginaCategoriaPingente.html" class="lnkMenu-6">Pingentes</a></li>
       <li class="liMenu-7"><a href="paginaCategoriaRelogio.html" class="lnkMenu-7">Relógios</a></li>
-            </ul>
+      </ul>
       <form class="navbar-form navbar-left formBusca" role="search">
         <div class="form-group">
           <input type="text" class="inputBusca" placeholder="Buscar">
@@ -55,16 +55,16 @@
       </form>
       <a href="#" class="lnkMarca"><img class="imgMarca" src='imagens/logoTyon.svg' alt="logo tryon"></a>  
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Criar Conta</a></li>
+        <li><a href="paginaCadastro.html">Criar Conta</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="#">Meus Pedidos</a></li>
-            <li><a href="#">Meus Dados</a></li>
+            <li><a href="paginaMeusDados.html">Meus Dados</a></li>
             <li class="divider"></li>
             <li><a href="#">x Sair</a></li>
           </ul>
-                        <li><a class=" carrinho glyphicon glyphicon-shopping-cart" href="#"></a></li>
+                        <li><a class=" carrinho glyphicon glyphicon-shopping-cart" href="paginaCarrinho.html"></a></li>
 
         </li>
       </ul>
@@ -115,10 +115,16 @@
     <label>Senha</label>
     <input type="password" class="form-control" id="senhaInput" placeholder="1111111">
 
-    <label>Sexo</label>
-    <input type="text" class="form-control" id="sexoInput" placeholder="F">
-
-    <label>Aniversário</label>
+    <label class="block">Sexo</label>
+<div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-default **active**">
+        <input type="radio" name="inputWalls" id="inputWalls" value="feminino" checked>Feminino 
+    </label>
+    <label class="btn btn-default">
+        <input type="radio" name="inputWalls" id="inputWalls" value="masculino">Masculino 
+    </label>
+</div>
+    <label class="block">Aniversário</label>
     <input type="text" class="form-control" id="niverInput" placeholder="27-01-1987">
 
     <label>CPF</label>
@@ -126,6 +132,7 @@
 
     <label>Telefone</label>
     <input type="text" class="form-control" id="telInput" placeholder="21 22734832">
+    <button type="button" class="btnGeralGrande">Alterar Dados</button> 
 
   </div>
 </div>
@@ -141,6 +148,7 @@
   <div class="panel-body">
         <label>Endereço</label>
     <input type="text" class="form-control" placeholder="Rua Joaquim Palhares n293 apto 206">
+    <button type="button" class="btnGeralGrande">Alterar Dados</button> 
 
   </div>
 </div>

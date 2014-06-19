@@ -168,8 +168,8 @@ width: 35%;
 }
 
 .imgTbProduto{
-	width: 279px;
-	height: 300px;
+	width: auto;
+	height: 300px!important;
 	border: 1px solid #ccc;
 }
 
@@ -586,6 +586,10 @@ color:#fff;
 
 .sidebarLi .navbar-default .navbar-nav .active > a{
 	border-bottom: none;
+}
+
+.block{
+	display: block;
 }
 
 
