@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tryon Meus Dados</title>
+
+    <!-- Bootstrap -->
+   <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap_tryon.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<div class="contentGeral">    
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle visible-desktop" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a href="#" class="lnkMarcaResponsivo"><img class="imgMarca" src='imagens/logoTyon.svg' alt="logo tryon"></a>  
+
+
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li class="liMenu-1"><a href="index.html" class="lnkMenu-1 glyphicon glyphicon-home"></a></li>
+      <li class="liMenu-2"><a href="paginaCategoriaAnel.html" class="lnkMenu-2">Anel</a></li>
+      <li class="liMenu-3"><a href="paginaCategoriaPulseira.html" class="lnkMenu-3">Pulseira</a></li>
+      <li class="liMenu-4"><a href="paginaCategoriaBrinco.html" class="lnkMenu-4">Brinco</a></li>
+      <li class="liMenu-5"><a href="paginaCategoriaColar.html" class="lnkMenu-5">Colares</a></li>
+      <li class="liMenu-6"><a href="paginaCategoriaPingente.html" class="lnkMenu-6">Pingentes</a></li>
+      <li class="liMenu-7"><a href="paginaCategoriaRelogio.html" class="lnkMenu-7">Relógios</a></li>
+            </ul>
+      <form class="navbar-form navbar-left formBusca" role="search">
+        <div class="form-group">
+          <input type="text" class="inputBusca" placeholder="Buscar">
+        </div>
+        <button type="submit" class="icoSearch icoSearchHome glyphicon glyphicon-search"></button>
+      </form>
+      <a href="#" class="lnkMarca"><img class="imgMarca" src='imagens/logoTyon.svg' alt="logo tryon"></a>  
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Criar Conta</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Meus Pedidos</a></li>
+            <li><a href="#">Meus Dados</a></li>
+            <li class="divider"></li>
+            <li><a href="#">x Sair</a></li>
+          </ul>
+                        <li><a class=" carrinho glyphicon glyphicon-shopping-cart" href="#"></a></li>
+
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="contentCorpoPagina marginHeader">
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="sidebar-nav sidebarLi">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Minha conta</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Meus Dados</a></li>
+            <li><a href="#">Meus Pedidos</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title inline">Dados Pessoais</h3>
+    <span class="glyphicon glyphicon-user floatRight"></span>
+  </div>
+  <div class="panel-body">
+    <label>Nome</label>
+    <input type="text" class="form-control" id="nomeInput" placeholder="Aline Alves Vianna">
+    
+    <label>Email</label>
+    <input type="text" class="form-control" id="emailInput" placeholder="aline@alinevianna.com.br">
+
+    <label>Senha</label>
+    <input type="password" class="form-control" id="senhaInput" placeholder="1111111">
+
+    <label>Sexo</label>
+    <input type="text" class="form-control" id="sexoInput" placeholder="F">
+
+    <label>Aniversário</label>
+    <input type="text" class="form-control" id="niverInput" placeholder="27-01-1987">
+
+    <label>CPF</label>
+    <input type="text" class="form-control" id="cpftelInput" placeholder="121.169.797-57">
+
+    <label>Telefone</label>
+    <input type="text" class="form-control" id="telInput" placeholder="21 22734832">
+
+  </div>
+</div>
+</div>
+
+ <div class="col-sm-4">
+
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title inline">Endereços de Entrega e Pagamento</h3>
+        <span class="glyphicon glyphicon-th-list floatRight"></span>
+  </div>
+  <div class="panel-body">
+        <label>Endereço</label>
+    <input type="text" class="form-control" placeholder="Rua Joaquim Palhares n293 apto 206">
+
+  </div>
+</div>
+</div>
+ 
+
+ </div>   
+</div>
+
+<footer class="footer">
+
+<div class="contentFooter">
+ <a href="#" class="lnkMarca lnkMarcaFooter"><img class="imgMarca" src='imagens/logoTyon.svg' alt="logo tryon"></a>   
+        <ul class="lnkFooterLista">
+          <li class="lilnkFooterHeader">Categorias</li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Anel</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Pulseira</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Brinco</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Colares</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Pingente</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Relógios</a></li>
+        </ul>
+        <ul class="lnkFooterLista">
+          <li class="lilnkFooterHeader">Dúvidas</li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Perguntas Frequentes</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Fale Conosco</a></li>
+        </ul>
+        <ul class="lnkFooterLista">
+          <li class="lilnkFooterHeader">Conta</li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Meus Dados</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Meus Pedidos</a></li>
+        </ul>
+        <ul class="lnkFooterLista">
+          <li class="lilnkFooterHeader">Sobre</li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Sobre o TryOn</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Política de Privacidade</a></li>
+          <li class="lilnkFooter"><a href="#" class="lnkFooter">Política de Entrega e Devoluções</a></li>
+        </ul>
+        <p class="copyright">TryOn &copy;. Todos os direitos reservados.</p>
+</div>
+
+  </footer>
+
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
