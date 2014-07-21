@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tryon Admin Cadastrar Produto</title>
+
+    <!-- Bootstrap -->
+   <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap_tryon.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<div class="contentGeral">    
+<nav class="navbar navbar-default headerAdm navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle visible-desktop" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a href="#" class="lnkMarcaResponsivo"><span class="imgMarcaAdmin"></span></a>  
+
+
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li class="liMenu-1"><a href="paginaInicialAdm.html" class="lnkMenu-1 glyphicon glyphicon-home"></a></li>
+      </ul>
+      <a href="#" class="lnkMarcaAdm"><span class="imgMarcaAdmin"></span></a>  
+      <ul class="nav navbar-nav navbar-right admMenuRight">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="glyphicon glyphicon-user"></span>
+Olá Aline! </a>
+        </li>
+                    <li><a href="#">x Sair</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="contentCorpoPagina marginHeader">
+
+<div class="row">
+  <div class="col-sm-4">
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+    <h3 class="panel-title inline">Produto</h3>
+    <span class="glyphicon glyphicon-gift floatRight"></span>
+
+  </div>
+  <!-- List group -->
+  <ul class="list-group">
+    <li class="list-group-item active"><a href="#">Cadastrar Produto</a></li>
+    <li class="list-group-item"><a href="#">Consultar Produto</a></li>
+  </ul>
+</div>
+  </div>
+ 
+<form class="formulario" action="" method="post" enctype="multipart/form-data">
+
+
+   <div class="col-md-9">
+     
+    <label>Nome do Produto</label>
+    <input type="text" class="form-control" id="nomeProd">
+
+   <label class="">Preço</label>
+    <input type="text" class="form-control" id="preco">
+
+    
+    <label class="block">Descrição</label>
+    <textarea class="form-control" name="descricao"></textarea>
+
+        <label class="block">Quantidade no Estoque</label>
+    <input type="text" class="form-control" id="qtdEstoque">
+
+    <label>Classificação</label>
+    <select name="" id="selQtdProd" class="form-control">
+          <option>Colar</option>
+          <option>Brinco</option>
+    </select>
+        <button type="button" class="btnGeralGrande">Cadastrar Produto</button> 
+
+   </div>
+
+   <div class="col-sm-3">
+     <label class="block">Foto do Produto</label>
+     <div class="imgVisualicao">
+       <p> - SEM IMAGEM - </p>
+     </div>
+         <label class="block lblAdm">Escolher Imagem</label>
+<input id="fakeupload" name="fakeupload" class="fakeupload" type="text" />
+<input id="realupload" name="realupload" class="realupload" type="file" onchange="this.form.fakeupload.value = this.value;" />
+</div>
+
+</form>
+
+
+
+ </div>
+ 
+</div>
+
+<footer class="footer">
+
+<div class="contentFooter">
+ <a href="#" class="lnkMarca lnkMarcaFooter"><span class="imgMarcaAdmin"></span></a>   
+        <p class="copyrightAdm">TryOn &copy;. Todos os direitos reservados.</p>
+</div>
+
+  </footer>
+
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+  </body>
+</html>
