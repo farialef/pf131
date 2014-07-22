@@ -68,6 +68,10 @@ padding: 20px;
 margin: 10px 0;
 }
 
+.rdForm{
+	margin:0 10px!important;
+}
+
 .lnkMarcaFooter .imgMarcaAdmin{
 	margin:0 10px 0 0;
 }
